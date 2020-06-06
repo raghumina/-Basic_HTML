@@ -17,8 +17,11 @@
     <li>other cats</li>
   </ol>
   <form action="/submit-cat-photo">
-    <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor"> Indoor</label>
-    <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor"> Outdoor</label><br>
+    <label><input type="radio" name="indoor-outdoor"> Indoor</label>
+    <label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
+    <label><input type="checkbox" name="personality"> Loving</label>
+    <label><input type="checkbox" name="personality"> Lazy</label>
+    <label><input type="checkbox" name="personality"> Energetic</label><br>
     <input type="text" placeholder="cat photo URL" required>
     <button type="submit">Submit</button>
   </form>
